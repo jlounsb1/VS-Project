@@ -1,0 +1,73 @@
+
+
+#gameboard {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    padding:25px;
+    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#gamebtn {
+    cursor:pointer;
+    font-size: 3rem;
+    border:none;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    background-color:rgba(195, 239, 195, 0.753);
+}
+
+#gamecontainer{
+    background-color:rgba(0, 0, 0, 0.2);
+    color: rgb(130, 130, 239);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    width:500px;
+}
+
+.actions{
+    width: 150px;
+    height: 75px;
+    font-size: 2rem;
+    align-items: center;
+    display:inline;
+    cursor:pointer;
+}
+
+p {
+    font-weight:bold;
+    font-size:2rem;
+    margin:10px;
+}
+
+#score{
+    color:green;
+
+}
+
+#scorebox{
+    display:flex;
+    float:right;
+}
+
+#timeleft{
+    color:hsl(9, 100%, 64%);
+}
+
+#timer{
+display:flex;
+float:left;
+
+}
+
+#subheading{
+    height:50px;
+    align-items: center;
+
+}

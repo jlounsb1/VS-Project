@@ -1,0 +1,22 @@
+#header {
+    color:grey;
+    background-color: lightblue;
+    font:arial;
+    font-family:sans-serif;
+    border: solid 7px;
+    border-color:black;
+    padding:5px;
+    text-align: center;
+ 
+}
+
+#center {
+    color:back;
+    background-color:cadetblue;
+    font:arial;
+    font-family: sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+    border:solid;
+
+}
